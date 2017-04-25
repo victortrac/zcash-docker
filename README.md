@@ -1,5 +1,5 @@
 ## zcash miner on docker ##
-Zcash 1.0, configured to mine. 
+Zcash 1.0.8-1, configured to mine. 
 
     mkdir -p /opt/zcash
     cat <<EOF > /opt/zcash/zcash.conf
