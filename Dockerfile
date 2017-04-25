@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 MAINTAINER Victor Trac <victor.trac@gmail.com>
 
-ENV VERSION v1.0.0
+ENV VERSION v1.0.8-1
 ENV BUILD_PACKAGES build-essential pkg-config libc6-dev m4 g++-multilib autoconf libtool ncurses-dev unzip git python zlib1g-dev wget bsdmainutils automake
 
 # Install, copy binaries to /usr/local/bin, cleanup
